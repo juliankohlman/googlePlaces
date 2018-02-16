@@ -1,9 +1,16 @@
 {
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
   "devDependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "node": "^9.5.0",
     "node-fetch": "^2.0.0",
     "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   }
 }
